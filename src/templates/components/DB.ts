@@ -150,7 +150,7 @@ export const OFFICE: CarProps[] = [
 		title: "Elegy Retro заказной",
 		floor: "1",
 		manufacturer: "Annis",
-		description: "Nissan Skyline",
+		description: "FF Nissan Skyline",
 		type: "Спорткар",
 		tuning: true,
 	},
@@ -286,7 +286,7 @@ export const OFFICE: CarProps[] = [
 		floor: "3",
 		manufacturer: "Maibatsu",
 		type: "Спорткар",
-		description: "FF - Mitsubishi Eclipse",
+		description: "FF Mitsubishi Eclipse",
 		tuning: true,
 	},
 	{
