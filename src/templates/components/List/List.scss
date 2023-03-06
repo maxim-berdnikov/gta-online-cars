@@ -1,0 +1,76 @@
+.menu {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+	max-width: 600px;
+
+	&__item {
+		margin: 0;
+		padding: 5px 10px;
+		border-radius: 15px;
+		background: #c6ffdd; /* fallback for old browsers */
+		background: linear-gradient(
+			to right,
+			#f7797d,
+			#fbd786,
+			#c6ffdd
+		); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		cursor: pointer;
+
+		&:hover {
+			background: linear-gradient(
+				to left,
+				#f7797d,
+				#fbd786,
+				#c6ffdd
+			); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		}
+
+		&--active {
+			background: #a8ff78; /* fallback for old browsers */
+			background: linear-gradient(
+				to right,
+				#78ffd6,
+				#a8ff78
+			); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+			&:hover {
+				background: linear-gradient(
+					to left,
+					#78ffd6,
+					#a8ff78
+				); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			}
+		}
+	}
+}
+
+.search {
+	margin-top: 20px;
+
+	&__input {
+		padding: 0 10px;
+		height: 20px;
+		border-radius: 20px;
+		border: 1px solid #000;
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
+
+.list {
+	margin: 0 auto;
+	max-width: 500px;
+	text-align: left;
+}
+
+.disabled {
+	filter: grayscale(1);
+	pointer-events: none;
+}
+
+.tuned {
+	text-decoration: underline;
+}

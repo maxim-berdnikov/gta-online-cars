@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.scss";
-import { Header } from "./templates/components";
+import { List } from "./templates/components";
 
 export const App = (): JSX.Element => {
 	return (
 		<div className="App">
-			<Header />
+			<h1>Транспорт GTA Online</h1>
+			<List />
 		</div>
 	);
 };
