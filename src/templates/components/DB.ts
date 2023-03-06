@@ -484,6 +484,23 @@ export const GANG_GARAGE_SECOND = [
 	{ title: "BMX", description: "Желтый велосипед", type: "Велосипед" },
 ];
 
-export const AGENCY: CarProps[] = [];
+export const AGENCY: CarProps[] = [
+	{
+		title: "Ellie",
+		manufacturer: "Vapid",
+	},
+	{
+		title: "Futo GTX",
+		manufacturer: "Karin",
+	},
+	{
+		title: "Jester Classic",
+		manufacturer: "Dinka",
+	},
+	{
+		title: "Viseris",
+		manufacturer: "Lampadati",
+	},
+];
 
 export const PENTHOUSE: CarProps[] = [];
